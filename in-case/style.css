@@ -5,3 +5,31 @@ body{
 .main-section{
     overflow: hidden;
 }
+.indid{
+   
+    background: rgb(253, 249, 249);
+    color: rgb(14, 15, 15);
+    border: 2px solid rgb(36, 234, 201);  
+    border-radius: 10px;
+    font-size: 20px;
+}
+.promo-divi{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.indid:hover{
+    
+    background: #000;
+    color: rgb(176, 194, 210);
+    border: 2px solid rgb(36, 234, 201);  
+
+}
+.promo-input{
+    border: 2px solid rgb(121, 75, 196);
+    border-radius: 10px;
+    font-size: 15px;
+
+}
