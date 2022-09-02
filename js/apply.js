@@ -16,16 +16,6 @@ function internal(namer,money,){
   let totalbox = totaltaxto + intotal;
   saveallTotal.innerText = totalbox;  
 
-  const promoDocumet = document.getElementById(namer'-code');
-  promoDocumet.value= 'stevekaku';
-  if(promoDocumet.value == 'stevekaku'){
-    let conditional = totalbox/20;
-    let semiConditional = totalbox - conditional ;
-    saveallTotal.innerText = semiConditional;
-  }
-  else{
-    return totalbox;
-  }
 
 }
 
@@ -41,7 +31,4 @@ document.getElementById('money-cost-btn5').addEventListener('click',function(){
 })
 document.getElementById('money-cost-btn7').addEventListener('click',function(){
     let moneyLon = internal('rising3',50);
-})
-document.getElementById('promo-btn').addEventListener('click',function(){
-    let moneyLon = internal('promo-code');
 })
